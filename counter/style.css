@@ -1,0 +1,64 @@
+#countlabel{
+    display:block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8em;
+    color:rgb(244, 244, 6);
+    text-shadow: 10px 3px rgb(226, 6, 6);
+}
+
+
+#h1{
+    text-align:center;
+    font-size: 5em;
+    padding:7px 30px;
+    color: brown;
+    text-shadow: 10px 3px rgb(199, 179, 129);
+   animation-name: grow;
+   animation-duration: 5s;
+   animation-iteration-count: 2;
+}
+@keyframes grow{
+    100%{transform:scale(1.2,1.2);}
+}
+
+body{
+    background-image:url(bg.jpg);
+}
+
+#buttonscontainer{
+    text-align: center;
+}
+.buttons{
+    padding:10px 20px;
+    font-size: 2em;
+    color:yellow;
+    background-color: rgb(250, 0, 0);
+    border-radius: 5000px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes glow{
+     100%{box-shadow: 0px 0px 50px yellow;}
+ }
+
+.buttons:hover{
+    background-color: rgb(255, 162, 0);
+}
+#reset{
+    padding:10px 20px;
+    font-size: 1em;
+    color:yellow;
+    background-color: rgb(255, 7, 7);
+    border-radius: 150px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+
+#giraffe{
+    font-size: 5em;
+}
+
