@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(108, 126, 184);
+
+}
+
+#myh1{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    background-color: rgb(126, 179, 112);
+}
+
+#display{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(118, 102, 102);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 15px;
+    min-width: 125px;
+    border: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aquamarine;
+}
+
+#sbtn{
+    background-color: rgb(68, 120, 166);
+
+}
+#stbtn{
+    background-color: rgb(68, 120, 166);
+    
+}
+#rbtn{
+    background-color: rgb(68, 120, 166);
+    
+}
