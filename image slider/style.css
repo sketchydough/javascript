@@ -1,0 +1,48 @@
+#myh1{
+    font-size: 2.5rem;
+    margin-bottom: auto;
+    text-align: center;
+    border: none;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.slider img{
+    width:60%;
+    padding: 25px 250px;
+    display:none;
+}
+
+img.displayslide{
+    display:block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right:0;
+}
+
+@keyframes fade{
+    from{opacity: 0.5;}
+    to{opacity: 1;}
+}
